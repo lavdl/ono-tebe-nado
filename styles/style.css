@@ -53,6 +53,7 @@
   background-image: url(../images/lotus-flower.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 165px 50px 51px 50px;
 }
 
 .overlay {
@@ -67,13 +68,16 @@
 .cover__title {
   position: relative;
   z-index: 2;
-  padding: 165px 50px 128px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
+  margin-bottom: 135px;
 }
 
 .aligned-text {
@@ -81,20 +85,23 @@
 }
 
 .letter-spacing-extended {
-  margin-left: 30px;
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: normal;
 }
 
 .aligned-text_center {
   display: block;
-  padding: 12px 29px 0 0;
   text-align: center;
+  line-height: 100%;
 }
 
 .aligned-text_right {
   display: block;
-  min-width: 1030px;
-  padding-top: 5px;
   text-align: right;
+  line-height: 100%;
 }
 
 .cover__description {
@@ -103,12 +110,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 50px 16px 73px;
 }
 
 .cover__description-text {
   min-width: 700px;
-  padding: 0 0 37px 5px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -117,14 +122,13 @@
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 19px;
+  padding-left: 26px;
 }
 
 .bet-button {
   display: block;
-  min-width: 256px;
-  margin: 0 0 35px 21px;
-  border: 1px solid #ffffff;
-  padding: 12px 0 11px 0;
+  padding: 12px 32px 11px 31px;
+  border: 1px solid currentColor;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -178,12 +182,12 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card__title {
@@ -214,14 +218,10 @@
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .lots__look-more-link {
