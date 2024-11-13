@@ -35,7 +35,7 @@
   width: 100%;
 }
 
-.adress {
+.address {
   display: flex;
   flex-direction: column;
   justify-self: end;
@@ -289,7 +289,7 @@
   padding: 0px 50px 88px 50px;
 }
 
-.footer adress {
+.footer address {
   padding-top: 0;
   color: #000000;
   font-family: "Raleway", sans-serif;
