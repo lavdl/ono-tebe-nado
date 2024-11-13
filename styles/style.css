@@ -50,7 +50,7 @@
 
 .cover {
   position: relative;
-  background-image: url(/images/lotus-flower.jpg);
+  background-image: url(../images/lotus-flower.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -181,7 +181,7 @@
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -213,13 +213,13 @@
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
