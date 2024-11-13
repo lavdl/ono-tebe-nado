@@ -42,6 +42,7 @@
   padding: 6px 26px 0 0;
   line-height: 24.3px;
   text-underline-offset: 4px;
+  font-style: normal;
 }
 
 .header__address {
